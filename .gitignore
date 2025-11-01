@@ -36,10 +36,11 @@ out/
 ### VS Code ###
 .vscode/
 # Spring Boot config
-application.yml
-application.yaml
-application-*.yml
-application-*.yaml
+**/application.yml
+**/application.yaml
+**/application-*.yml
+**/application-*.yaml
+
 
 # 환경 변수 파일들
 .env
