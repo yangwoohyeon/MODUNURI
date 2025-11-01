@@ -112,5 +112,9 @@ public class TouristController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
-
+    @GetMapping("/fetch-tourist-data")
+    public String fetchTouristData() {
+        touristApiService.fetchAndSaveTouristData();
+        return "Tourist data fetching and saving initiated.";
+    }
 }
