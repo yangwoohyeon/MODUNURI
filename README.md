@@ -1,4 +1,4 @@
-![img.png](img.png)
+![img.png](images/img.png)
 ---
 
 # 🖥️  개발 배경
@@ -22,7 +22,7 @@
 
 # 프로젝트 구조
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 ---
 
 # 🙋‍♂️ 담당 역할
@@ -49,23 +49,23 @@
 - DB에 저장된 정보를 바탕으로 사용자는 관광지를 검색
 - 무장애 정보(엘리베이터 유뮤, 장애인화장실 유무, 휠체어 대여, 장애인 주차구역 등)를 활용한 관광지 필터링 기능 구현
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](images/img_2.png)
+![img_3.png](images/img_3.png)
 ### 카카오맵 API, Naver Search API 활용
 
 - 카카오맵 API를 통해 지도위에 관광지 위치 정보 제공
 - **카카오 Mobility 길찾기 API**를 활용하여 여러개의 관광지를 경유하는 경로 제공
 - Naver Search API를 통해 관광지에 대한 최신 블로그 리뷰 제공
 
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](images/img_4.png)
+![img_5.png](images/img_5.png)
 ### 여행 후기 공유 커뮤니티
 
 - 사용자의 경험에 기반한 후기를 작성하여 다른 사용자와 공유할 수 있는 커뮤니티 기능 제공
 
-![img_6.png](img_6.png)
+![img_6.png](images/img_6.png)
 
 ### 관심 여행지 저장
 
 - 관심 여행지, 관광 코스를 저장하여 마이페이지에서 확인
-![img_7.png](img_7.png)
+![img_7.png](images/img_7.png)
