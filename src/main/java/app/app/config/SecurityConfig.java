@@ -30,7 +30,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/", "/css/**", "/script/**", "/images/**", "/static/**").permitAll() 
                         .requestMatchers("/users/signup", "/users/login", "/users/signup_complete").permitAll()
-                        .requestMatchers("/touristSpot/**","/api/**","/api/tourist-accessible-info","/touristSpot/Json/**","/**").permitAll() 
+                        .requestMatchers("/touristSpot/**","/api/**","/api/tourist-accessible-info","/touristSpot/Json/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin((form) -> form
