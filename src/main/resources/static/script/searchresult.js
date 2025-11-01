@@ -9,7 +9,6 @@ document.getElementById('search-form').addEventListener('submit', function (e) {
 });
 
 function fetchTouristSpotData(query) {
-    // 여기에 실제 API 엔드포인트 URL을 입력하세요
     const apiUrl = `https://api.example.com/tourist-spot?query=${encodeURIComponent(query)}`;
 
     fetch(apiUrl)
